@@ -1,0 +1,57 @@
+@media screen and (max-width:650px) {
+    header a {
+        font-size: 125%;
+    }
+    
+    header img {
+        max-width:25px;
+        max-height:20px;
+    }
+
+    header nav a { 
+        font-size: 105%;
+        margin: 15px;
+    }
+
+    main .presentation h1{
+        font-size: 150%;
+    }
+
+    main .presentation p{
+        font-size: 100%;
+    }
+
+    main .presentation img{
+        max-width: 380px;
+        max-height: 285px;
+    }
+
+    main .us h2{
+        font-size: 150%;
+    }
+
+    main .us p{
+        font-size:100%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    main .products h2 {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    main .products img {
+        max-width: 100px;
+        max-height: 180px;
+        margin: 30%;
+    }
+
+    main .products a {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
+
+
